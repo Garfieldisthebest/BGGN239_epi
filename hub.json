@@ -1,7 +1,7 @@
 {
   "id":          "lambda_dam_vs_nodam",
   "name":        "λ-phage Dam vs No-Dam methylation",
-  "genome":      "lambda_phage",                 // an arbitrary assembly tag
+  "genome":      "lambda_phage",                 
   "defaultRegion": "NC_001416.1:1-48502",
 
   "chromosomes": [
