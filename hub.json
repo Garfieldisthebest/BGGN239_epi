@@ -1,10 +1,11 @@
 {
   "id": "lambda_dam_vs_nodam",
+  "name": "λ-phage Dam vs no-Dam methylation",
   "defaultRegion": "NC_001416.1:1-48502",
   "chromosomes": [
     { "name": "NC_001416.1", "length": 48502 }
   ],
-  "files": [
+  "tracks": [
     {
       "type": "bigwig",
       "name": "Dam-treated mean (%)",
@@ -31,6 +32,7 @@
       "name": "Dam-treated ≥50 %",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz",
       "color": "#1f77b4"
+      /* index file will be autodetected as …bed.gz.tbi */
     },
     {
       "type": "bedtabix",
