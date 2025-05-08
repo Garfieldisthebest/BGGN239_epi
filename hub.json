@@ -32,7 +32,6 @@
       "name": "Dam-treated ≥50 %",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz",
       "color": "#1f77b4"
-      /* index file will be autodetected as …bed.gz.tbi */
     },
     {
       "type": "bedtabix",
