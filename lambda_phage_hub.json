@@ -1,0 +1,29 @@
+{
+  "name"    : "λ-phage Dam vs No-Dam methylation",
+  "assembly": "lambda_phage",
+
+  "tracks": [
+    {
+      "type"  : "bigwig",
+      "name"  : "Dam-treated mean (%)",
+      "url"   : "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean.bw",
+      "color" : "#1f77b4",
+      "height": 40
+    },
+    {
+      "type"  : "bigwig",
+      "name"  : "Non-treated mean (%)",
+      "url"   : "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean.bw",
+      "color" : "#d62728",
+      "height": 40
+    },
+    {
+      "type"  : "bigwig",
+      "name"  : "Δ methylation (Non − Dam)",
+      "url"   : "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/diff_subtract_c2_minus_c1.bw",
+      "color" : "#9467bd",
+      "height": 40
+    },
+    {
+      "type"     : "bedtabix",
+      "name"     : "Dam-treated ≥ 50
