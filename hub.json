@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "name": "Lambda_Dam_vs_NoDam_Methylation",
+  "description": "Per-base methylation % (Modkit pile-up) — Dam-treated vs non-treated",
+  "organism": "bacteriophage_lambda",
+  "assembly": "NC_001416.1",
+  "tracks": [
+    { "name": "Dam-treated mean (%)",      "type": "bigWig",
+      "url": "BASE_URL/cond1_mean.bw",
+      "options": { "color": "#1f77b4", "height": 40 } },
+    { "name": "Non-treated mean (%)",      "type": "bigWig",
+      "url": "BASE_URL/cond2_mean.bw",
+      "options": { "color": "#d62728", "height": 40 } },
+    { "name": "Δ methylation (Non − Dam)","type": "bigWig",
+      "url": "BASE_URL/diff_subtract_c2_minus_c1.bw",
+      "options": { "color": "#9467bd", "height": 40,
+                   "transform": "clamp(-50,50)" } },
+    { "name": "Dam-treated ≥50 %",         "type": "bedTabix",
+      "url": "BASE_URL/cond1_mean_high50.bed.gz",
+      "options": { "color": "#1f77b4" } },
+    { "name": "Non-treated ≥50 %",         "type": "bedTabix",
+      "url": "BASE_URL/cond2_mean_high50.bed.gz",
+      "options": { "color": "#d62728" } }
+  ]
+}
