@@ -3,32 +3,40 @@
     "type": "bigwig",
     "name": "Dam-treated mean (%)",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean.bw",
-    "color": "#1f77b4"
+    "color": "#1f77b4",
+    "height": 40,
+    "assembly": "NC_001416.1"
   },
   {
     "type": "bigwig",
     "name": "Non-treated mean (%)",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean.bw",
-    "color": "#d62728"
+    "color": "#d62728",
+    "height": 40,
+    "assembly": "NC_001416.1"
   },
   {
     "type": "bigwig",
     "name": "Δ methylation (Non − Dam)",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/diff_subtract_c2_minus_c1.bw",
-    "color": "#9467bd"
+    "color": "#9467bd",
+    "height": 40,
+    "assembly": "NC_001416.1"
   },
   {
     "type": "bedtabix",
     "name": "Dam-treated ≥50 %",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz",
     "indexURL": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz.tbi",
-    "color": "#1f77b4"
+    "color": "#1f77b4",
+    "assembly": "NC_001416.1"
   },
   {
     "type": "bedtabix",
     "name": "Non-treated ≥50 %",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean_high50.bed.gz",
     "indexURL": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean_high50.bed.gz.tbi",
-    "color": "#d62728"
+    "color": "#d62728",
+    "assembly": "NC_001416.1"
   }
 ]
