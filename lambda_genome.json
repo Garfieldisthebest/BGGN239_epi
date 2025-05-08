@@ -1,0 +1,8 @@
+{
+  "id":       "lambda",
+  "name":     "Phage λ  (NC_001416.1)",
+  "chromosomes": [
+    { "name": "NC_001416.1", "length": 48502 }
+  ],
+  "defaultRegion": "NC_001416.1:1-48502"
+}
