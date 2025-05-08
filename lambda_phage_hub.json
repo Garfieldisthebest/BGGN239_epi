@@ -15,7 +15,7 @@
   },
   {
     "type": "bigwig",
-    "name": "Δ methylation (Non − Dam)",
+    "name": "diff methylation (Non − Dam)",
     "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/diff_subtract_c2_minus_c1.bw",
     "color": "#9467bd",
     "options": { "useProxy": true }
