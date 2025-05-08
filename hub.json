@@ -1,43 +1,42 @@
 {
-  "version": "1.0",
-  "name": "Lambda_Dam_vs_NoDam_Methylation",
-  "description": "Per-base methylation % (Modkit pile-up) — Dam-treated vs non-treated",
-  "organism": "bacteriophage_lambda",
-  "assembly": "NC_001416.1",
-  "tracks": [
+  "id": "lambda_dam_vs_nodam",
+  "defaultRegion": "NC_001416.1:1-48502",
+  "chromosomes": [
+    { "name": "NC_001416.1", "length": 48502 }
+  ],
+  "files": [
     {
+      "type": "bigwig",
       "name": "Dam-treated mean (%)",
-      "type": "bigWig",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean.bw",
-      "options": { "color": "#1f77b4", "height": 40 }
+      "color": "#1f77b4",
+      "height": 40
     },
     {
+      "type": "bigwig",
       "name": "Non-treated mean (%)",
-      "type": "bigWig",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean.bw",
-      "options": { "color": "#d62728", "height": 40 }
+      "color": "#d62728",
+      "height": 40
     },
     {
+      "type": "bigwig",
       "name": "Δ methylation (Non − Dam)",
-      "type": "bigWig",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/diff_subtract_c2_minus_c1.bw",
-      "options": {
-        "color": "#9467bd",
-        "height": 40,
-        "transform": "clamp(-50,50)"
-      }
+      "color": "#9467bd",
+      "height": 40
     },
     {
+      "type": "bedtabix",
       "name": "Dam-treated ≥50 %",
-      "type": "bedTabix",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz",
-      "options": { "color": "#1f77b4" }
+      "color": "#1f77b4"
     },
     {
+      "type": "bedtabix",
       "name": "Non-treated ≥50 %",
-      "type": "bedTabix",
       "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean_high50.bed.gz",
-      "options": { "color": "#d62728" }
+      "color": "#d62728"
     }
   ]
 }
