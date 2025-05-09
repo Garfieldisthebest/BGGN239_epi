@@ -1,39 +1,36 @@
-[
-  {
-    "type": "bigwig",
-    "name": "Dam-treated mean (%)",
-    "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean.bw",
-    "showOnHubLoad": true,
-    "options": { "color": "#1f77b4" }
-  },
-  {
-    "type": "bigwig",
-    "name": "Non-treated mean (%)",
-    "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean.bw",
-    "showOnHubLoad": true,
-    "options": { "color": "#d62728" }
-  },
-  {
-    "type": "bigwig",
-    "name": "delta methylation (Non − Dam)",
-    "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/diff_subtract_c2_minus_c1.bw",
-    "showOnHubLoad": true,
-    "options": { "color": "#9467bd" }
-  },
-  {
-    "type": "bedtabix",
-    "name": "Dam-treated ≥ 50 %",
-    "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz",
-    "indexURL": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond1_mean_high50.bed.gz.tbi",
-    "showOnHubLoad": true,
-    "options": { "color": "#1f77b4" }
-  },
-  {
-    "type": "bedtabix",
-    "name": "Non-treated ≥ 50 %",
-    "url": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean_high50.bed.gz",
-    "indexURL": "https://raw.githubusercontent.com/Garfieldisthebest/BGGN239_epi/main/cond2_mean_high50.bed.gz.tbi",
-    "showOnHubLoad": true,
-    "options": { "color": "#d62728" }
-  }
-]
+{
+  "tracks": [
+    {
+      "type": "bigwig",
+      "name": "Dam-treated mean (%)",
+      "url": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond1_mean.bw",
+      "color": "#1f77b4"
+    },
+    {
+      "type": "bigwig",
+      "name": "Non-treated mean (%)",
+      "url": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond2_mean.bw",
+      "color": "#d62728"
+    },
+    {
+      "type": "bigwig",
+      "name": "Δ methylation (Non − Dam)",
+      "url": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/diff_subtract_c2_minus_c1.bw",
+      "color": "#9467bd"
+    },
+    {
+      "type": "bedtabix",
+      "name": "Dam-treated ≥ 50 %",
+      "url": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond1_mean_high50.bed.gz",
+      "indexURL": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond1_mean_high50.bed.gz.tbi",
+      "color": "#1f77b4"
+    },
+    {
+      "type": "bedtabix",
+      "name": "Non-treated ≥ 50 %",
+      "url": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond2_mean_high50.bed.gz",
+      "indexURL": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/cond2_mean_high50.bed.gz.tbi",
+      "color": "#d62728"
+    }
+  ]
+}
