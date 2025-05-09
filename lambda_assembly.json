@@ -1,8 +1,8 @@
 {
-  "id"          : "lambda_phage",
-  "name"        : "Enterobacteria phage λ (NC_001416.1)",
+  "id": "lambda_phage",
+  "name": "Enterobacteria phage λ (NC_001416.1)",
   "defaultRegion": "NC_001416.1:1-48502",
-  "chromosomes" : [
+  "chromosomes": [
     { "name": "NC_001416.1", "length": 48502 }
   ]
 }
