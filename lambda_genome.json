@@ -1,0 +1,9 @@
+{
+  "id": "lambda_phage",
+  "name": "Enterobacteria phage λ (NC_001416.1)",
+  "defaultRegion": "NC_001416.1:1-48502",
+  "chromosomes": [
+    { "chr": "NC_001416.1", "size": 48502 }
+  ],
+  "twoBitURL": "https://cdn.jsdelivr.net/gh/Garfieldisthebest/BGGN239_epi@main/lambda_phage.2bit"
+}
